@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,900');
+
+* {
+  padding; 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-weight: 900;
+}
+
+#wrapper {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+#logo {
+  font-weight: 100;
+  font-size: 2em;
+  color: #fff;
+  text-decoration: none;
+  margin: 2rem 1em 0;
+  display: block;
+}
+
+header {
+  width: 100%;
+  display: block;
+  padding: .5em;
+  position: absolute;
+  top: 0;
+}
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: .75em .2em;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: 300;
+  color: #fff;
+  font-size: .9em;
+}
+
+.cta {
+  display: block;
+  background: #0F8B8D;
+  padding: 1em 8px;
+  border-radius: 5px;
+}
+
+.section-home-hero {
+  padding-top: 6em;
+  background: #FF715B;
+  background: -webkit-linear-gradient(#FF715B, #FFC030);
+  padding-bottom: 4em;
+}
+
+.section-home-hero h1 {
+  color: #fff;
+  text-shadow: 0px 2px 6px rgba(0,0,0,0.5);
+  font-size: 2.2em;
+  margin: 3em .3em .3em;
+  font-weight: 800;
+}
+
+.section-home p {
+  margin: 1em 0;
+  line-height: 1.5;
+}
+
+.section-home-hero p {
+  color: #fff;
+  width: 95%;
+  margin: 1em auto;
+  font-weight: 300;
+  display: block;
+}
+
+.cta-hero {
+  width: 100px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  padding: 1em;
+  margin: 0 auto;
+  font-weight: 300;
+}
+
+.section-home-hero small {
+  width: 95%;
+  display: block;
+  margin: 1em auto 0;
+  color: #fff;
+}
+
+.section-home-difference,
+.section-home-pricing,
+.section-home-faq {
+  box-sizing: border-box;
+  padding: 2em 2.5%;
+  color: #4C5454;
+}
+
+.section-home h2 {
+  margin: 0 0 1em;
+  color: #344;
+  font-size: 1.75em;
+}
+
+.section-home strong {
+  display: block;
+  margin-bottom: .4em;
+}
+
+.cta-body {
+  width: 60%;
+  display: block;
+  padding: 1em;
+  margin: 0 auto;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+
+.section-home-cta {
+  background: -webkit-linear-gradient(#FF715B, #FFC030);
+}
+
+.section-home-cta h2 {
+  color: #fff;
+  font-weight: 300;
+  text-align: center;
+}
+
+footer {
+	box-sizing: border-box;
+	text-align: center;
+	padding: 1em 0;
+	color: #333;
+}
+
+footer a {
+	color: #0F8B8D;
+	text-decoration: none;
+}
+
+@media screen and (min-width: 720px) {
+  nav ul li {
+    margin: 0 2em;
+  }
+
+  .section-home-hero {
+    text-align: center;
+  }
+
+  .section-home-difference,
+  .section-home-pricing,
+  .section-home-faq,
+  .section-home-cta {
+    padding: 2em 25%;
+  }
+
+  .cta-header {
+    padding: 1em;
+  }
+
+  .cta-body {
+    width: 40%;
+  }
+}
