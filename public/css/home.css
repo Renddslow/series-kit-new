@@ -8,6 +8,7 @@
 
 h2 {
   font-weight: 900;
+	text-align: center;
 }
 
 #wrapper {
@@ -76,9 +77,10 @@ nav ul li a {
   color: #fff;
   text-shadow: 0px 2px 6px rgba(0,0,0,0.3);
   font-size: 2.2em;
-  margin: 3em .3em .3em;
+  margin: 3em auto .3em;
   font-weight: 800;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-align: center;
 }
 
 .section-home p {
@@ -182,7 +184,7 @@ footer a {
   }
 
 	.section-home-hero h1 {
-		margin: 3em 1em .3em;
+		margin: 3em auto .3em;
 	}
 
   .section-home-difference,

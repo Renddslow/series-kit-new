@@ -1,0 +1,166 @@
+.row {
+  width: 80%;
+  margin: 3em auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.col-6 {
+	width: 100%;
+}
+
+.col-12 {
+	width: 100%;
+}
+
+.pricing-item {
+  width: 98%;
+  display: block;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+  box-sizing: border-box;
+  padding: 16px;
+}
+
+.pricing-item .content ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pricing-item ul li {
+  padding: 1em 0;
+  border-bottom: 1px dashed #ddd;
+  padding-right: 4px;
+}
+
+.pro-tip {
+  position: relative;
+  top: 12px;
+  float: right;
+  right: -5px;
+  text-align: center;
+  background-color: #333;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  font-size: 12px;
+  line-height: 15px;
+  cursor: pointer;
+  z-index: 8;
+}
+
+.content {
+  position: relative;
+  color: #333;
+}
+
+.pro-tip p {
+	display: none;
+	text-align: left;
+	background-color: #1E2021;
+	padding: 20px;
+	width: 300px;
+	position: absolute;
+	border-radius: 3px;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+	right: -4px;
+	color: #FFF;
+	font-size: 13px;
+	line-height: 1.4;
+	z-index: 100;
+}
+
+.pro-tip::before {
+  content: "?";
+  color: #fff;
+}
+
+.pro-tip:hover p {
+  display: block;
+  transform-origin: 100% 0%;
+  -webkit-animation: fadeIn 0.3s ease-in-out;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.pro-tip p:after {
+  width: 100%;
+  height: 40px;
+  content: '';
+  position: absolute;
+  top: -40px;
+  left: 0;
+}
+
+.cta {
+	margin-top: 1em;
+}
+
+.section-page {
+	box-sizing: border-box;
+  padding: 2em 2.5%;
+  color: #4C5454;
+}
+
+.section-page p {
+	margin-top: 2em;
+	text-align: center;
+}
+
+span.number {
+  font-size: 2em;
+}
+
+.price {
+  position: relative;
+  text-align: center;
+}
+
+span.currency {
+	position: relative;
+	top: -5px;
+	left: 1px;
+	color: #888;
+}
+
+.pricing-item .heading h3 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+span.frequency {
+  color: #555;
+}
+
+.question {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+
+.question h3 {
+	margin-bottom: .4em;
+}
+
+.question p {
+	text-align: left;
+	margin-top: 0;
+}
+
+h4 {
+	text-align: center;
+}
+
+@media screen and (min-width: 720px) {
+	.col-6 {
+		width: 50%;
+	}
+
+	.pro-tip p {
+		position: relative;
+	}
+}
