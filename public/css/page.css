@@ -95,7 +95,7 @@
   left: 0;
 }
 
-.cta {
+.cta:not(.cta-header) {
 	margin-top: 1em;
 }
 
@@ -153,6 +153,12 @@ span.frequency {
 
 h4 {
 	text-align: center;
+}
+
+.section-page h4 a,
+.section-page .question a {
+  color: #0F8B8D;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 720px) {
