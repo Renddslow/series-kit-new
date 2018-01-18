@@ -9,6 +9,7 @@
   margin: 0 auto;
   display: block;
   position: relative;
+	overflow: hidden;
 }
 
 #logo {
@@ -216,6 +217,7 @@ section.white p {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+	align-items: start;
 }
 
 .pricing-card {
@@ -317,6 +319,19 @@ footer {
   font-weight: 300;
 }
 
+#what p {
+	width: 100%;
+}
+
+.qa {
+	text-align: left;
+	margin: 2em 0 0;
+}
+
+.qa p {
+	text-align: left !important;
+}
+
 @media screen and (max-width: 720px) {
   .card-container {
     width: 95%;
@@ -338,6 +353,12 @@ footer {
   }
 
   .column { width: 100%; }
+
+	.column img {
+		width: 100%;
+		display: block;
+		object-fit: cover;
+	}
 
   section.white p {
     width: 95%;
