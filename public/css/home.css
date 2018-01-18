@@ -332,6 +332,11 @@ footer {
 	text-align: left !important;
 }
 
+.column p a {
+    color: #FF715B;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 720px) {
   .card-container {
     width: 95%;
