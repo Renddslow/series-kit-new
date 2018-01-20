@@ -1,0 +1,48 @@
+.form-card {
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	width: 75%;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 2em 1em;
+	-webkit-backface-visibility: hidden;
+}
+
+.form-group {
+  flex: 1;
+  margin: 24px 1em 0;
+}
+
+label {
+	font-size: 12px;
+	color: #FFC030;
+	font-family: 'Montserrat', sans-serif;
+	margin: 8px 20px;
+	display: block;
+}
+
+input {
+	width: 100%;
+  font-size: 16px;
+  padding: 12px 16px;
+  -webkit-appearance: none;
+  background: -webkit-linear-gradient(135deg, #FF715B, #FFC030);
+	border: 0;
+	border-radius: none;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+	box-sizing: border-box;
+	transition: .3s ease-out;
+	color: #fff;
+	border-radius: 50px;
+	-webkit-backface-visibility: hidden;
+}
+
+input:focus {
+	box-shadow: 0 14px 28px rgba(0,0,0,0.06), 0 10px 10px rgba(0,0,0,0.03);
+}
+
+@media screen and (max-width: 720px) {
+	.form-card {
+		width: 95%;
+	}
+}
